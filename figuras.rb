@@ -37,3 +37,7 @@ puts "\n--/\--/\--/ Triángulo  \--/\--/\--\n"
   puts "Área de un triángulo de base y altura #{i}: #{area_triangulo(i, i)}"
 end
 
+# Línea de comando
+puts "\nLínea de comando: "
+
+p ARGV
