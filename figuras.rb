@@ -23,4 +23,17 @@ c = STDIN.gets.chomp
 n = c.to_i
 puts "El número introducido es #{n}"
 
+# Bloques e iteradores
+
+puts "\n--|--|--| Cuadrado  |--|--|--\n"
+(1..n).each do |i|
+  puts "Perímetro de un cuadrado de lado #{i}: #{perimetro_cuadrado(i)}"
+  puts "Área de un cuadrado de lado #{i}: #{area_cuadrado(i)}"
+end
+
+puts "\n--/\--/\--/ Triángulo  \--/\--/\--\n"
+(1..n).each do |i|
+  puts "Perímetro de un triángulo de lados #{i}: #{perimetro_triangulo(i, i, i)}"
+  puts "Área de un triángulo de base y altura #{i}: #{area_triangulo(i, i)}"
+end
 
