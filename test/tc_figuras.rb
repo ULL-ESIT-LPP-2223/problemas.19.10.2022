@@ -1,7 +1,7 @@
 require 'lib/figuras'
 require 'test/unit'
 
-class TestPoint < Test::Unit::TestCase
+class TestFiguras < Test::Unit::TestCase
   def setup
     # nothing
   end

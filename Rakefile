@@ -1,6 +1,6 @@
 task :default => :tu
 
-desc "Pruebas unitarias de la clase Point"
+desc "Pruebas unitarias"
 task :tu do
   sh "ruby -I. test/tc_figuras.rb"
 end
